@@ -9,16 +9,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "My Portfolio",
   description: "A modern portfolio showcasing my projects and skills.",
-  openGraph: {
-    title: "My Portfolio",
-    description: "A modern portfolio showcasing my projects and skills.",
-    site_name: "My Portfolio",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "My Portfolio",
-    description: "A modern portfolio showcasing my projects and skills.",
-  },
 };
 
 export default function RootLayout({ children }) {
@@ -35,30 +25,6 @@ export default function RootLayout({ children }) {
           content="portfolio, web developer, projects, skills, frontend developer"
         />
         <meta name="author" content="Hasan HINÇAL" />
-        <meta property="og:title" content="My Portfolio" />
-        <meta
-          property="og:description"
-          content="A modern portfolio showcasing my projects and skills."
-        />
-        <meta property="og:url" content="https://www.example.com" />{" "}
-        {/* Replace with your actual URL */}
-        <meta
-          property="og:image"
-          content="https://www.example.com/path/to/your/image.jpg"
-        />{" "}
-        {/* Replace with your actual image URL */}
-        <meta property="og:site_name" content="My Portfolio" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="My Portfolio" />
-        <meta
-          name="twitter:description"
-          content="A modern portfolio showcasing my projects and skills."
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.example.com/path/to/your/image.jpg"
-        />{" "}
-        {/* Replace with your actual image URL */}
       </Head>
       <body className={inter.className}>
         <ThemeProvider attribute="class">

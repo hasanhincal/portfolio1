@@ -10,7 +10,7 @@ const TypingAnimation = React.memo(
     return (
       <Typical
         loop={3}
-        wrapper="P"
+        wrapper="p"
         steps={[
           "React Developer",
           2500,
