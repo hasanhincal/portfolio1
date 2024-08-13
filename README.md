@@ -4,7 +4,7 @@ This is a modern, responsive portfolio project built using Next.js, React, and s
 
 ## Project Gif
 
-<img src="screen1.gif/>
+<img src="screen1.gif"/>
 
 ## 🛠️ Technologies Used
 
