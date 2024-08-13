@@ -1,24 +1,19 @@
 "use client";
 import { motion } from "framer-motion";
 import React from "react";
-import Typical from "react-typical";
+import ReactTypingEffect from "react-typing-effect";
 import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 import Link from "next/link";
 
 const TypingAnimation = React.memo(
   () => {
     return (
-      <Typical
-        loop={3}
-        wrapper="p"
-        steps={[
-          "React Developer",
-          2500,
-          "Frontend Developer",
-          2500,
-          "Software Developer",
-          2500,
-        ]}
+      <ReactTypingEffect
+        text={["React Developer", "Frontend Developer", "Software Developer"]}
+        speed={100} // Typing speed in milliseconds
+        eraseSpeed={50} // Erase speed in milliseconds
+        eraseDelay={2500} // Delay before erasing in milliseconds
+        typingDelay={100} // Delay before typing starts in milliseconds
       />
     );
   },
