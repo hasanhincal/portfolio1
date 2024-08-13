@@ -2,6 +2,10 @@
 
 This is a modern, responsive portfolio project built using Next.js, React, and several other cutting-edge technologies. The project showcases my skills and projects in a clean, user-friendly interface.
 
+## For Live Project
+
+https://www.safewebsite.store/
+
 ## Project Gif
 
 <img src="screen1.gif"/>
